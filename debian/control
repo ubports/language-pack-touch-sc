@@ -1,0 +1,17 @@
+Source: language-pack-touch-sc
+Section: translations
+Priority: optional
+Maintainer: UBports Translators <ublangs@ubports.com>
+Build-Depends-Indep: gettext
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.6
+
+Package: language-pack-touch-sc
+Architecture: all
+Pre-Depends: dpkg (>= 1.16.1), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, locales (>= 2.3.6)
+Recommends: 
+Conflicts: language-pack-sc
+Description: Ubuntu Touch translations for language Sardinian
+ Translation data for all supported Ubuntu Touch packages for:
+ Sardinian
